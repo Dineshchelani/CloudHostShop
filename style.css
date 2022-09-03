@@ -28,7 +28,9 @@ body {
 }
 
 #mainNav a.nav-link:hover {
+    transition: 0.5s;
     color: #66C206;
+    font-size: 18px;
 }
 
 #mainNav .navbar .active {
