@@ -1,0 +1,1389 @@
+/* ======================= Shared Hosting Page Styling >>>>>>>>>>>>>>>>>> */
+#main {
+    background: #6bca062d;
+    font-family: 'Montserrat' !important;
+}
+
+body {
+    font-family: poppins !important;
+    background-color: #FFFFFF;
+}
+
+/* navbar styling */
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+}}
+#mainNav .nav-item {
+    font-size: 16px;
+}
+
+#mainNav a.nav-link {
+    color: #000;
+}
+
+#mainNav a.nav-link:active {
+    color: #66C206 !important;
+    background-color: transparent !important;
+}
+
+#mainNav a.nav-link:hover {
+    color: #66C206;
+}
+
+#mainNav .navbar .active {
+    background-color: transparent !important;
+    color: #28A745 !important;
+}
+/* navbar styling */
+
+/* Banner styling */
+#banner {
+    background-color: #66C206;
+    padding: 50px 0px;
+}
+
+#banner.bagr {
+    background-image: url(./images/banner\ IMAGE.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left bottom;
+}
+
+#banner .img {
+    text-align: right;
+}
+
+@media (max-width: 768px) {
+    #banner .img {
+        text-align: center;
+    }
+}
+
+
+#banner>.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.bannerContent h1 {
+    font-weight: 700;
+    font-size: 30px;
+    /* text-transform: lowercase; */
+    color: #FFFFFF;
+}
+
+.bannerContent p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.bannerContent .btn {
+    background-color: #F67A3C;
+    border: 1px solid #F67A3C;
+    border-radius: 4.8px;
+    color: #FFFFFF;
+}
+
+.bannerContent .btn:hover,
+.bannerContent .btn:focus {
+    background-color: #f16e2d !important;
+    border: 1px solid #faa377 !important;
+    color: #FFFFFF;
+    box-shadow: none;
+}
+
+.bannerContent .btn:active {
+    border: 4px solid #faa377 !important;
+}
+
+.bannerContent ul.list {
+    padding-left: 25px;
+    margin-bottom: 22px;
+}
+
+.bannerContent .list li {
+    list-style-image: url(./images/Vector.png);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+/* Banner styling End*/
+
+/* Benefits Div Styling */
+div#benefits {
+    background-color: #ffffff;
+    padding: 50px 0px;
+}
+
+div#benefits .col p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #666666;
+}
+
+div#benefits .col h2 {
+    font-weight: 600;
+    font-size: 26px;
+    color: #001042;
+}
+
+div#benefits .benefitHeading {
+    margin: 10px;
+}
+
+div#benefits .benefit {
+    margin: 10px;
+    padding: 0px 15px 5px 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 12px 50px rgba(125, 125, 125, 0.1);
+    border-radius: 6px;
+}
+
+#benefits .benefit a {
+    color: #F67A3C;
+}
+
+#benefits .benefit h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 29px;
+    color: #001042;
+}
+
+
+/* Benefits Div Styling End*/
+
+/* Locations div styling */
+.map-back {
+    background-color: #F7FEF7;
+    padding-bottom: 2.5rem;
+}
+.map-head {
+    font-size: 13px;
+    line-height: 4px;
+    color: #66C206;
+}
+
+/* Locations div styling end */
+
+/*  Hosting Plans Features Div Styling */
+
+#hostingFeatures {
+    background: #F6F6F6;
+    padding: 4rem 0px;
+}
+
+#hostingFeatures h2 {
+    text-align: center;
+    color: #001042;
+    margin: auto;
+    margin-bottom: 20px;
+    max-width: 400px;
+}
+
+#hostingFeatures .featureslist,
+#DRServices .serviceList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly !important;
+}
+
+#hostingFeatures .featureslist ul,
+#DRServices .serviceList ul {
+    margin: 10px;
+}
+
+#hostingFeatures .featureslist li,
+#DRServices .serviceList li {
+    list-style-image: url(./images/.png);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #001042;
+}
+
+/* Hosting Plans Features Div Styling End*/
+
+
+/* Available OS Div Styling */
+#availableOS {
+    background: #66C206;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem;
+}
+
+#availableOS .content {
+    text-align: center;
+    max-width: 550px;
+}
+
+#availableOS h2 {
+    font-weight: 400;
+    line-height: 46px;
+    color: #FFFFFF;
+}
+
+#availableOS p {
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+#availableOS .OSs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.OSs div {
+    margin: 5px;
+}
+
+/* Available OS Div Styling End */
+
+/* Testimonials Div Styling */
+#testimonials {
+    background-color: #FAFAFA;
+    padding: 40px 30px;
+}
+
+#testimonials .text h3 {
+    font-weight: 400;
+    color: #1A202C;
+}
+
+#testimonials .text p {
+    font-weight: 400;
+    font-size: 14px;
+    color: #5B5858;
+}
+
+.button a {
+    color: #66C206;
+    border: 1px solid #66C206;
+    border-radius: 3.2px;
+}
+
+.button a:hover,
+.button a:active {
+    color: #ffffff;
+    background-color: #66C206 !important;
+    border: 1px solid #66C206 !important;
+}
+
+.button a:focus,
+.button a:active:focus {
+    color: #ffffff;
+    background-color: #66C206 !important;
+    border: 1px solid #66C206 !important;
+    border-radius: 3.2px;
+    box-shadow: 0 0 0 0.2rem #67c2068e !important;
+}
+
+/* slider div styling */
+.carousel .carousel-indicators {
+    bottom: -20px;
+}
+
+.carousel-indicators li,
+.carousel-indicators li.active {
+    width: 10px;
+    height: 10px !important;
+    border-radius: 50%;
+    border-bottom: 0px;
+    box-sizing: border-box;
+}
+
+.carousel-indicators li {
+    background: #5e5e5e !important;
+    border: 0px !important;
+    width: 10px !important;
+    height: 10px !important;
+}
+
+.carousel-indicators li.active {
+    color: #fff;
+    background: #66C206 !important;
+}
+
+.carousel-item .content {
+    background: #FFFFFF;
+    border: 1px solid rgba(93, 118, 174, 0.15);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 15px;
+}
+
+.carousel-inner {
+    padding: 10px;
+}
+
+.carousel-item h4 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1A202C;
+}
+
+.carousel-item p {
+    font-weight: 400;
+    font-size: 12px;
+    color: #5B5858;
+}
+
+.person {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.person div {
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 12px;
+    color: #5B5858;
+}
+
+.person div p {
+    margin-bottom: 2px;
+}
+
+/* slider div styling end */
+/* Testimonials Div Styling End */
+
+/* foteer Div Styling End */
+.border-bottom {
+    background-color: #66C206;
+}
+footer a {
+    color: #FFF !important;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: none;
+    transition: 0.5s;
+    font-weight: bold;
+}
+footer p {
+    font-size: 15px;
+    color: #FFF !important;
+}
+.mini-bottom a {
+    color: #000 !important;
+}
+.p_set1 {
+    font-size: 12px;
+    font-weight: 300;
+}
+/* foteer Div Styling End */
+
+/* about Hosting Div Styling End*/
+
+#aboutHosting .Div1 {
+    padding: 50px 0px;
+    background: #FAFAFA;
+}
+
+#aboutHosting .Div2 {
+    padding: 50px 0px;
+    background: #FFFFFF;
+}
+
+#aboutHosting .Div1 .img {
+    text-align: right;
+}
+
+@media (max-width: 768px) {
+    #aboutHosting .Div1 .img {
+        text-align: center;
+    }
+}
+
+#aboutHosting .Div2 .img {
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    #aboutHosting .Div2 .img {
+        text-align: center;
+    }
+
+    #aboutHosting .Div2 .container {
+        flex-direction: column-reverse;
+    }
+}
+
+#aboutHosting .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#aboutHosting .content h1 {
+    font-weight: 400;
+    font-size: 28px;
+    color: #1A202C;
+    margin-bottom: 15px;
+}
+
+#aboutHosting .Div1 p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #5B5858;
+}
+
+#aboutHosting .Div2 p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #5B5858;
+}
+
+#aboutHosting .Div2 h3 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #1A202C;
+}
+
+.button2 a {
+    color: #ffffff;
+    background-color: #66C206 !important;
+    border: 1px solid #66C206;
+    border-radius: 4px;
+}
+
+.button2 a:hover,
+.button2 a:active {
+    color: #ffffff;
+    background-color: #66C206 !important;
+    border: 1px solid #66C206 !important;
+}
+
+.button2 a:focus,
+.button2 a:active:focus {
+    color: #ffffff;
+    background-color: #66C206 !important;
+    border: 1px solid #66C206 !important;
+    border-radius: 3.2px;
+    box-shadow: 0 0 0 0.2rem #67c2068e !important;
+}
+
+/* about Hosting Div Styling End*/
+
+
+
+
+/* ======================= Whois Privacy Page Styling >>>>>>>>>>>>>>>>>> */
+
+/* Domain info Div 1 & 2 styling */
+#Domaininfo1 {
+    background-image: url(./images/IMAGE\ \(Traced\).svg);
+    background-repeat: no-repeat;
+    padding: 80px 0px 100px 0px;
+    background-size: contain;
+    background-position: left top;
+    background-color: #FCFCFC;
+    ;
+}
+
+#Domaininfo2 {
+    background-image: url(./images/IMAGE.svg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: contain;
+    padding: 100px 0px 80px 0px;
+    background-color: #fafafa;
+}
+
+#Domaininfo2 .img {
+    text-align: right;
+}
+
+@media (max-width: 768px) {
+    #Domaininfo2 .img {
+        text-align: center;
+    }
+}
+
+#Domaininfo1 .img {
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    #Domaininfo1 .img {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    #Domaininfo1 .body {
+        flex-direction: column-reverse !important;
+    }
+}
+
+#Domaininfo1 .heading {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#Domaininfo1 .heading h1 {
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    color: #001042;
+}
+
+#Domaininfo1 p,
+#Domaininfo2 p {
+    font-weight: 400;
+    font-size: 14px;
+    color: #666666;
+}
+
+#Domaininfo1 h2,
+#Domaininfo2 h2 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #001042;
+    margin-bottom: 15px;
+}
+
+#Domaininfo1 .body,
+#Domaininfo2 .body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Domain info Div 1 & 2 styling End*/
+
+/* Support div styling*/
+#support {
+    background-color: #66C206;
+    padding: 50px 0px;
+}
+
+#support .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+#support .container div {
+    background-color: #FFFFFF;
+    box-shadow: 0px 12px 50px rgba(125, 125, 125, 0.1);
+    border-radius: 6px;
+    padding: 25px;
+}
+
+#support .box1 {
+    background-image: url(./images/Group\ 22.png);
+    background-position-x: 10px;
+    background-position: 94% -8%;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+
+#support .box2 {
+    background-image: url(./images/Group\ 27.png);
+    background-position: right top;
+    background-position: 96% top;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+
+#support .box3 {
+    background-image: url(./images/Group\ 30.png);
+    background-position: right top;
+    background-position: 98% top;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+
+#support img {
+    background: #FFFFFF;
+    box-shadow: 10px 15px 60px rgba(139, 139, 139, 0.3);
+    width: 40px;
+    height: 40px;
+}
+
+#support .box3 img {
+    padding: 5px;
+}
+
+#support h2 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: #001042;
+    margin-bottom: 15px;
+}
+
+#support p {
+
+    font-family: 'Mulish';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #666666;
+    margin-bottom: 5px;
+}
+
+/* Support div styling End*/
+
+/* FAQs div styling */
+#FAQs {
+    padding: 80px 0px 60px 0px;
+}
+
+#FAQs .heading {
+    text-align: center;
+}
+
+#FAQs .heading h1 {
+    font-weight: 550;
+    font-size: 30px;
+    line-height: 46px;
+    text-align: center;
+    color: #1A202C;
+}
+
+#FAQs .heading p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    color: #5B5858;
+    max-width: 700px;
+    margin: auto;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #66C206 !important;
+    border: 1px solid rgba(93, 118, 174, 0.15) !important;
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.12) !important;
+    border-radius: 4px 4px 0px 0px !important;
+    color: #FFFFFF !important;
+}
+
+.accordion-button:not(.collapsed)::after,
+.accordion-button::after {
+    background-image: none !important;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #66C206 !important;
+    outline: 0;
+    box-shadow: none !important;
+}
+
+.accordion-item {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 27px;
+    color: #5B5858 !important;
+    background: #FAFAFA !important;
+    border-radius: 0px 0px 4px 4px !important;
+    margin: 10px;
+}
+
+.accordion-button {
+    background: #FFFFFF;
+    border: 1px solid rgba(93, 118, 174, 0.15) !important;
+}
+
+/* FAQs div styling End*/
+
+
+/* ======================= SSL Page Styling >>>>>>>>>>>>>>>>>> */
+
+/*  ssl banner div styling */
+#SSLbanner {
+    background-image: url(./images/slider1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0px;
+}
+
+#SSLbanner>.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#SSLbanner li {
+    list-style-image: url(./images/cloud.svg);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+#SSLbanner .content .btn {
+    background-color: #F67A3C;
+    border: 1px solid #F67A3C;
+    border-radius: 4.8px;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+
+#SSLbanner .content .btn:hover,
+#SSLbanner .content .btn:focus {
+    background-color: #f16e2d !important;
+    border: 1px solid #faa377 !important;
+    color: #FFFFFF;
+    box-shadow: none;
+}
+
+#SSLbanner .content .btn:active {
+    border: 4px solid #faa377 !important;
+}
+
+#SSLbanner .slider_text {
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+#SSLbanner .slider_heading {
+    font-weight: 300;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+#SSLbanner #priceDiv {
+    margin: 0px;
+}
+
+#SSLbanner sup#dollar {
+    font-size: 50px;
+    font-weight: bold;
+    top: -5rem;
+}
+
+#SSLbanner #price {
+    font-size: 200px;
+}
+
+#SSLbanner sub#sub {
+    bottom: 0em;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+#SSLbanner p#priceTagline {
+    margin-top: -4rem;
+}
+
+@media (max-width: 372px) {
+    #SSLbanner sup#dollar {
+        font-size: 30px;
+    }
+
+    #SSLbanner #price {
+        font-size: 150px;
+    }
+
+    #SSLbanner sub#sub {
+        font-size: 30px;
+    }
+
+    #SSLbanner p#priceTagline {
+        margin-top: -3rem;
+    }
+}
+
+/* ssl banner div styling End */
+
+/* SSL Uses + DRSteps Div styling */
+#sslUses,
+#DRSteps {
+    padding: 50px 0px;
+    background: #FAFAFA;
+}
+
+#sslUses .img,
+#DRSteps .img {
+    text-align: right;
+}
+
+@media (max-width: 768px) {
+
+    #sslUses .img,
+    #DRSteps .img {
+        text-align: center;
+    }
+}
+
+#sslUses .container,
+#DRSteps .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#sslUses .content h1 {
+    font-weight: 700;
+    font-size: 28px;
+    color: #1A202C;
+    margin-bottom: 15px;
+}
+
+#sslUses .content p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #5B5858;
+
+}
+
+/* SSL Uses Div styling End*/
+
+/*  Customer support div styling */
+#custSup .img,
+#sslProvide .img {
+    text-align: right;
+}
+
+@media (max-width: 768px) {
+
+    #custSup .img,
+    #sslProvide .img {
+        text-align: center;
+    }
+}
+
+#custSup {
+    background-color: #66C206;
+    padding: 40px 0px;
+}
+
+#custSup .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#custSup .content {
+    color: #FFFFFF;
+}
+
+#custSup .content p {
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+#custSup .content h1 {
+    font-weight: 400;
+    font-size: 26px;
+    color: #FFFFFF;
+}
+
+#custSup .content .contactNOEM {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/*  Customer support div styling End*/
+
+/*  SSL provide div styling */
+#sslProvide {
+    background: #FAFAFA;
+    padding: 50px 0px;
+}
+
+#sslProvide .heading h1 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: center;
+    color: #1A202C;
+}
+
+#sslProvide .body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#sslProvide .body h2 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1A202C;
+}
+
+#sslProvide .body p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    color: #5B5858;
+}
+
+/*  SSL provide div styling End*/
+
+/* ======================= Domain Registration Page Styling >>>>>>>>>>>>>>>>>> */
+
+/*  DR banner div styling */
+.question-box .template-btn i {
+    margin-right: 10px;
+}
+
+.template-btn {
+    display: inline-block;
+    font-family: "Urbanist", sans-serif;
+    font-weight: 600;
+    /* border-radius: 5px; */
+    padding: 16px 32px;
+    color: #ffffff;
+    vertical-align: middle;
+    overflow: hidden;
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
+
+/* @media (max-width: 575.98px) {
+    .template-btn {
+        padding: 14px 30px;
+        font-size: 15px;
+    }
+} */
+
+.hm2-dm-search-form .hm2-primary-btn {
+    border-radius: 0px !important;
+}
+
+/* @media (max-width: 575.98px) {
+    .hm2-dm-search-form {
+        margin-bottom: 90px;
+    }
+
+    .hm2-dm-search-form input {
+        width: 100%;
+    }
+
+    .hm2-dm-search-form .hm2-primary-btn {
+        position: absolute;
+        top: calc(100% + 15px);
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+        border-radius: 0px;
+    }
+} */
+
+[type=button]:not(:disabled),
+[type=reset]:not(:disabled),
+[type=submit]:not(:disabled),
+button:not(:disabled) {
+    cursor: pointer;
+}
+
+.bg-primary-gradient h1,
+.bg-primary-gradient h2,
+.bg-primary-gradient h3,
+.bg-primary-gradient h4,
+.bg-primary-gradient p,
+.bg-primary-gradient button {
+    color: #ffffff;
+}
+
+.hm2-primary-btn {
+    background: linear-gradient(287.85deg, #FF0766 0%, #FF7E5D 95.32%);
+    position: relative;
+    z-index: 1;
+}
+
+.hm2-primary-btn::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 102%;
+    height: 100%;
+    background: linear-gradient(287.85deg, #FF7E5D 0%, #FF0766 95.32%);
+    z-index: -1;
+    opacity: 0;
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
+
+.hm2-primary-btn:hover {
+    color: #ffffff;
+}
+
+.hm2-primary-btn:hover::before {
+    opacity: 1;
+}
+
+.hm2-dm-search-form input {
+    padding: 16px 10px 16px 20px;
+    border: 0;
+    width: 75%;
+    border-radius: 5px 0 0 5px;
+}
+
+.hm2-dm-search-form input::-webkit-input-placeholder {
+    color: #C7C7C7;
+}
+
+.hm2-dm-search-form input::-moz-placeholder {
+    color: #C7C7C7;
+}
+
+.hm2-dm-search-form input:-ms-input-placeholder {
+    color: #C7C7C7;
+}
+
+.hm2-dm-search-form input::-ms-input-placeholder {
+    color: #C7C7C7;
+}
+
+.hm2-dm-search-form input::placeholder {
+    color: #C7C7C7;
+}
+
+.hm2-dm-search-form input {
+    width: 100%;
+}
+
+.hm2-dm-search-form .hm2-primary-btn {
+    border-radius: 0 5px 5px 0 !important;
+}
+
+/* @media (max-width: 575.98px) {
+    .hm2-dm-search-form {
+        margin-bottom: 90px;
+    }
+
+    .hm2-dm-search-form input {
+        width: 100%;
+    }
+
+    .hm2-dm-search-form .hm2-primary-btn {
+        position: absolute;
+        top: calc(100% + 15px);
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+} */
+
+.justify-content-between {
+    -webkit-box-pack: justify !important;
+    -ms-flex-pack: justify !important;
+    justify-content: space-between !important;
+}
+
+.align-items-center {
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+}
+
+.d-flex {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+}
+
+.position-relative {
+    position: relative !important;
+}
+
+#banner .DRbannerContent h1 {
+    max-width: 480px;
+    margin: 10px auto 20px auto;
+}
+
+#banner .DRbannerContent p {
+    max-width: 600px;
+    margin: 10px;
+}
+
+#banner .DRbannerContent .p2 {
+    font-size: 12px !important;
+}
+
+#banner .DRbannerContent form {
+    max-width: 500px;
+    margin: auto;
+}
+
+/*  DR banner div styling End*/
+
+/*  DR Services Div styling */
+#DRServices {
+    padding: 4rem 0px;
+}
+
+#DRServices .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#DRServices .content {
+    max-width: 700px;
+    margin: auto;
+}
+
+#DRServices .content h2 {
+    margin-bottom: 25px;
+}
+
+#DRServices .content p {
+    margin-bottom: 30px;
+}
+
+#DRServices .serviceList span {
+    color: #28A745;
+}
+
+@media (max-width: 992px) {
+    #DRServices .serviceList {
+        flex-direction: column;
+    }
+}
+
+/*  DR Services Div styling End*/
+
+/*  DR Steps Div styling End*/
+#DRSteps .content h1 {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    color: #1A202C;
+    margin-bottom: 15px;
+}
+
+#DRSteps .content p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #5B5858;
+}
+
+#DRSteps ol.list {
+    padding-left: 20px !important;
+    margin-bottom: 25px;
+}
+
+#DRSteps .list li::marker {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#DRSteps .list li {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 27px;
+    color: #5B5858;
+    margin-bottom: 5px;
+}
+
+/*  DR Steps Div styling End*/
+
+/* ======================= TLD Page Styling >>>>>>>>>>>>>>>>>> */
+/* TLD banner styling */
+#banner.bagr2 {
+    padding: 80px 0px;
+    background: url(./images/IMAGE\ \(Traced\)2.svg), url(./images/Vector.svg), url(./images/migrate-frame\ 1.svg), #66C206;
+    background-position: -50px 0px, 950px -150px, 1205px 250px;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: 320px, 553px, 60px;
+}
+
+/* TLD banner styling End*/
+
+/* TLDs Div styling */
+
+
+#TLDs #mycard {
+    position: relative;
+    box-shadow: 0px 15px 60px rgba(151, 151, 151, 0.1);
+    border-radius: 6px;
+    border: none;
+    font-size: 15px;
+    background-image: url(./images/circle-back.svg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+#TLDs #mycard:hover {
+    background: url(./images/circle-back.svg) right bottom no-repeat, linear-gradient(109.88deg, #66C206 0%, #518C13 100%) !important;
+    color: #FFF;
+}
+
+#TLDs #mycard:hover .myimg {
+    filter: brightness(0) invert(1);
+    background-color: #1A202C;
+}
+
+#TLDs #percent {
+    position: absolute;
+    right: 9px;
+}
+
+@media (max-width: 767px) {
+    #TLDs #percent.col-md-2 {
+        flex: 0 0 auto;
+        max-width: 8%;
+    }
+}
+
+@media (max-width: 767px) {
+    #TLDs #percent.col-md-2 {
+        flex: 0 0 auto;
+        max-width: 11%;
+    }
+}
+
+#TLDs .vertical {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    background: linear-gradient(90deg, #FF7E5D 1.37%, #FF0766 100%);
+    padding: 5px 0px;
+    color: #FFF;
+}
+
+#TLDs .heading h2 {
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 40px;
+    color: #001042;
+    max-width: 500px;
+    margin: auto;
+}
+
+#TLDs .heading p {
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 20px;
+    color: #666666;
+    padding: 0px 35px;
+
+}
+
+/* TLDs Div styling End*/
+
+/* ======================= PrestaShopPage Styling >>>>>>>>>>>>>>>>>> */
+
+/* cards on banners div styling */
+#cardsOnBanner {
+    margin-top: -90px;
+}
+
+#cardsOnBanner .card {
+    box-shadow: 0px 15px 60px rgb(151 151 151 / 10%);
+    border-radius: 6px;
+    font-size: 15px;
+    padding: 10px;
+    height: 170px;
+    margin: 5px;
+}
+
+#cardsOnBanner .card img {
+    width: 100px;
+    margin: auto;
+}
+
+/* cards on banners div styling end */
+
+/* Best Feature div styling */
+#bestFeatures {
+    background: #FAFAFA;
+    padding: 60px 0px;
+}
+
+#bestFeatures .card {
+    background: #FFFFFF;
+    border: 1px solid rgba(93, 118, 174, 0.15);
+    border-radius: 4px;
+    padding: 10px;
+    width: 30%;
+    margin: 10px;
+}
+
+#bestFeatures .cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+@media (max-width: 768px) {
+    #bestFeatures .card {
+        width: 45% !important;
+    }
+}
+@media (max-width: 424px) {
+    #bestFeatures .card {
+        width: 90% !important;
+    }
+}
+
+#bestFeatures .card img {
+    width: 70px;
+    height: 70px;
+    margin: 10px auto;
+}
+
+#bestFeatures .heading h1 {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46px;
+    color: #1A202C;
+}
+
+#bestFeatures .card h3 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1A202C;
+}
+#bestFeatures .heading p{
+    font-size: 14px;
+    max-width: 600px;
+    margin: auto;
+}
+#bestFeatures .card p {
+    font-size: 12px;
+}
+#bestFeatures p {
+    font-weight: 400;
+    line-height: 20px;
+    color: #5B5858;
+}
+
+/* Best Feature div styling end*/
